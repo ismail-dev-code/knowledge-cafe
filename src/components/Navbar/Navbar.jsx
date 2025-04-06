@@ -5,7 +5,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100 shadow-sm">
   <div className="flex-1">
-    <a className="btn btn-ghost text-xl">Knowledge-Cafe</a>
+    <a className="btn hover:bg-blue-700 hover:text-white text-xl">Knowledge-Cafe</a>
   </div>
   <div className="flex-none">
     <div className="dropdown dropdown-end">
@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="w-10 rounded-full">
           <img
             alt="Tailwind CSS Navbar component"
-            src="/src/assets/faisalwheelpic.png" />
+            src="./src/assets/faisalwheelpic.png" />
         </div>
       </div>
       <ul

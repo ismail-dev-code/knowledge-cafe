@@ -14,7 +14,7 @@ const Blogs = ({handleBookMark, handleMarkAsRead}) => {
     // console.log(blogs);
     return (
         <div>
-            <h1 className='text-3xl'>Total: {blogs.length}</h1>
+            <h1 className='text-xl'>Total: {blogs.length}</h1>
             <div className="all-blogs grid grid-cols-2">
                 {blogs.map((blog)=><Blog handleBookMark={handleBookMark} handleMarkAsRead={handleMarkAsRead} key={blog.id} blog={blog}></Blog>)}
             </div>

@@ -8,6 +8,12 @@
   </head>
   <body>
     <div id="root"></div>
+    <footer class="text-center">
+      <p><small>copyrights @ <span class="year"></span> ismail initiative</small></p>
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

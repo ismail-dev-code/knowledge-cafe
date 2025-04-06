@@ -39,7 +39,7 @@ const handleRemoveFromBookmark =(id)=>{
           <h1>Bookmarked count: {bookmarked.length}</h1>
             <div className="bg-gray-100 p-2.5 mx-8 space-y-4 mt-2.5 rounded-lg shadow">
             {
-              bookmarked.map((marked)=><li key={marked.id}>{marked.title}</li>)
+              bookmarked.map((marked)=><li className="bg-white p-2 rounded-md" key={marked.id}>{marked.title}</li>)
             }
             </div>
         </div>
